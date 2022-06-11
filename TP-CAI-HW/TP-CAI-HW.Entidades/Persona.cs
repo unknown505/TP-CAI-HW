@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TP_CAI_HW.Datos
+namespace TP_CAI_HW.Entidades
 {
-    public class WebHelper
+    class Persona
     {
     }
 }

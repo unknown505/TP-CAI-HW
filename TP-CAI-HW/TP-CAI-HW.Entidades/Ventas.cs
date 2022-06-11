@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TP_CAI_HW.Entidades
 {
-    public class Class1
+    class Ventas
     {
     }
 }
