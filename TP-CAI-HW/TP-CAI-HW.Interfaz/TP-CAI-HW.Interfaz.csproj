@@ -46,11 +46,59 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="FrmConsultarClientes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="FrmConsultarClientes.Designer.cs">
+      <DependentUpon>FrmConsultarClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsultarProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsultarProductos.Designer.cs">
+      <DependentUpon>FrmConsultarProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsultarProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsultarProveedores.Designer.cs">
+      <DependentUpon>FrmConsultarProveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmConsultarVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsultarVentas.Designer.cs">
+      <DependentUpon>FrmConsultarVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmIngresarClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmIngresarClientes.Designer.cs">
+      <DependentUpon>FrmIngresarClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmIngresarProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmIngresarProductos.Designer.cs">
+      <DependentUpon>FrmIngresarProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmIngresarProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmIngresarProveedores.Designer.cs">
+      <DependentUpon>FrmIngresarProveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmIngresarVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmIngresarVentas.Designer.cs">
+      <DependentUpon>FrmIngresarVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmPrincipal.Designer.cs">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
