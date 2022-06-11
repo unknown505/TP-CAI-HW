@@ -41,6 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ClientesMapper.cs" />
+    <Compile Include="ProductosMapper.cs" />
+    <Compile Include="ProveedoresMapper.cs" />
+    <Compile Include="VentasMapper.cs" />
     <Compile Include="WebHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
