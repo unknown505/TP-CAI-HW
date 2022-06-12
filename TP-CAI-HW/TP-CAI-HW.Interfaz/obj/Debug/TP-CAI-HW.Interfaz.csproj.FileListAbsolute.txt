@@ -1,0 +1,9 @@
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Interfaz\bin\Debug\TP-CAI-HW.Interfaz.exe.config
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Interfaz\bin\Debug\TP-CAI-HW.Interfaz.exe
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Interfaz\bin\Debug\TP-CAI-HW.Interfaz.pdb
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Interfaz\obj\Debug\TP-CAI-HW.Interfaz.csprojAssemblyReference.cache
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Interfaz\obj\Debug\TP_CAI_HW.Interfaz.Properties.Resources.resources
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Interfaz\obj\Debug\TP-CAI-HW.Interfaz.csproj.GenerateResource.cache
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Interfaz\obj\Debug\TP-CAI-HW.Interfaz.csproj.CoreCompileInputs.cache
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Interfaz\obj\Debug\TP-CAI-HW.Interfaz.exe
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Interfaz\obj\Debug\TP-CAI-HW.Interfaz.pdb

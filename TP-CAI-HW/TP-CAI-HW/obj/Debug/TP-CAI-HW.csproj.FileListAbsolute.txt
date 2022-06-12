@@ -1,0 +1,7 @@
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW\bin\Debug\TP-CAI-HW.exe.config
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW\bin\Debug\TP-CAI-HW.exe
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW\bin\Debug\TP-CAI-HW.pdb
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW\obj\Debug\TP-CAI-HW.csprojAssemblyReference.cache
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW\obj\Debug\TP-CAI-HW.csproj.CoreCompileInputs.cache
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW\obj\Debug\TP-CAI-HW.exe
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW\obj\Debug\TP-CAI-HW.pdb
