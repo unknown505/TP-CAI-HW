@@ -29,10 +29,17 @@ namespace TP_CAI_HW.Interfaz
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // FrmConsultarClientes
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "ConsultarClientes";
+            this.Name = "FrmConsultarClientes";
+            this.Text = "Hardware Springfield - Consultar Clientes";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
