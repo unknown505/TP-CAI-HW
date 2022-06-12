@@ -12,6 +12,7 @@ namespace TP_CAI_HW.Entidades
         private string _idProducto;
         private DateTime _fechaAlta;
         private DateTime _fechaBaja;
+        //private string _nombre;
 
         public string IdProveedor { get => _idProveedor; set => _idProveedor = value; }
         public string IdProducto { get => _idProducto; set => _idProducto = value; }

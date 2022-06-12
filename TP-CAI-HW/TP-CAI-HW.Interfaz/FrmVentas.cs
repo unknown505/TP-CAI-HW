@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace TP_CAI_HW.Interfaz
 {
-    public partial class FrmPrincipal : Form
+    public partial class FrmVentas : Form
     {
-        public FrmPrincipal()
+        public FrmVentas()
         {
             InitializeComponent();
         }

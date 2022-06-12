@@ -29,10 +29,17 @@ namespace TP_CAI_HW.Interfaz
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // FrmIngresarVentas
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(467, 410);
+            this.Name = "FrmIngresarVentas";
             this.Text = "FrmIngresarVentas";
+            this.ResumeLayout(false);
+
         }
 
         #endregion
