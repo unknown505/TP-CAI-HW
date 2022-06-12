@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TP_CAI_HW.Entidades
 {
-    class Cliente
+    class Cliente : Persona
     {
         private string _idCliente;
         private string _fechaAlta; //modificar a datetime
