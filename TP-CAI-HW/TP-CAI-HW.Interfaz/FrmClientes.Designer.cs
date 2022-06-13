@@ -44,6 +44,7 @@ namespace TP_CAI_HW.Interfaz
             this._btnIngresarCliente.TabIndex = 1;
             this._btnIngresarCliente.Text = "Ingresar Cliente";
             this._btnIngresarCliente.UseVisualStyleBackColor = true;
+            this._btnIngresarCliente.Click += new System.EventHandler(this._btnIngresarCliente_Click);
             // 
             // _btnConsultarCliente
             // 
@@ -54,6 +55,7 @@ namespace TP_CAI_HW.Interfaz
             this._btnConsultarCliente.TabIndex = 2;
             this._btnConsultarCliente.Text = "Consultar Cliente";
             this._btnConsultarCliente.UseVisualStyleBackColor = true;
+            this._btnConsultarCliente.Click += new System.EventHandler(this._btnConsultarCliente_Click);
             // 
             // _lblClientes
             // 
@@ -74,6 +76,7 @@ namespace TP_CAI_HW.Interfaz
             this._btnSalir.TabIndex = 4;
             this._btnSalir.Text = "Salir";
             this._btnSalir.UseVisualStyleBackColor = true;
+            this._btnSalir.Click += new System.EventHandler(this._btnSalir_Click);
             // 
             // FrmClientes
             // 
@@ -86,6 +89,7 @@ namespace TP_CAI_HW.Interfaz
             this.Controls.Add(this._btnIngresarCliente);
             this.Name = "FrmClientes";
             this.Text = "Hardware Springfield - Clientes";
+            this.Load += new System.EventHandler(this.FrmClientes_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

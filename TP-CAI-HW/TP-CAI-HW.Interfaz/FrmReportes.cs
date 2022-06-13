@@ -10,21 +10,11 @@ using System.Windows.Forms;
 
 namespace TP_CAI_HW.Interfaz
 {
-    public partial class FrmConsultarVentas : Form
+    public partial class FrmReportes : Form
     {
-        public FrmConsultarVentas()
+        public FrmReportes()
         {
             InitializeComponent();
-        }
-
-        private void _btnSalir_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void _btnConsultar_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

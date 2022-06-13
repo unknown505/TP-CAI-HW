@@ -7,3 +7,17 @@ C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Interfaz\obj\D
 C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Interfaz\obj\Debug\TP-CAI-HW.Interfaz.csproj.CoreCompileInputs.cache
 C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Interfaz\obj\Debug\TP-CAI-HW.Interfaz.exe
 C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Interfaz\obj\Debug\TP-CAI-HW.Interfaz.pdb
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Interfaz\obj\Debug\TP_CAI_HW.Interfaz.FrmClientes.resources
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Interfaz\obj\Debug\TP_CAI_HW.Interfaz.FrmConsultarClientes.resources
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Interfaz\obj\Debug\TP_CAI_HW.Interfaz.FrmConsultarProductos.resources
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Interfaz\obj\Debug\TP_CAI_HW.Interfaz.FrmConsultarProveedores.resources
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Interfaz\obj\Debug\TP_CAI_HW.Interfaz.FrmConsultarVentas.resources
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Interfaz\obj\Debug\TP_CAI_HW.Interfaz.FrmIngresarClientes.resources
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Interfaz\obj\Debug\TP_CAI_HW.Interfaz.FrmIngresarProductos.resources
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Interfaz\obj\Debug\TP_CAI_HW.Interfaz.FrmIngresarProveedores.resources
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Interfaz\obj\Debug\TP_CAI_HW.Interfaz.FrmIngresarVentas.resources
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Interfaz\obj\Debug\TP_CAI_HW.Interfaz.FrmPrincipal.resources
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Interfaz\obj\Debug\TP_CAI_HW.Interfaz.FrmProductos.resources
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Interfaz\obj\Debug\TP_CAI_HW.Interfaz.FrmProveedores.resources
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Interfaz\obj\Debug\TP_CAI_HW.Interfaz.FrmReportes.resources
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Interfaz\obj\Debug\TP_CAI_HW.Interfaz.FrmVentas.resources

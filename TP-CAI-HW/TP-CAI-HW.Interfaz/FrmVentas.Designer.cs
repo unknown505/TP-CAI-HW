@@ -44,6 +44,7 @@ namespace TP_CAI_HW.Interfaz
             this.btnIngresarVenta.TabIndex = 0;
             this.btnIngresarVenta.Text = "Ingresar Venta";
             this.btnIngresarVenta.UseVisualStyleBackColor = true;
+            this.btnIngresarVenta.Click += new System.EventHandler(this.btnIngresarVenta_Click);
             // 
             // _btnConsultarVenta
             // 
@@ -54,6 +55,7 @@ namespace TP_CAI_HW.Interfaz
             this._btnConsultarVenta.TabIndex = 1;
             this._btnConsultarVenta.Text = "Consultar Venta";
             this._btnConsultarVenta.UseVisualStyleBackColor = true;
+            this._btnConsultarVenta.Click += new System.EventHandler(this._btnConsultarVenta_Click);
             // 
             // _lblVentas
             // 
@@ -74,6 +76,7 @@ namespace TP_CAI_HW.Interfaz
             this._btnSalir.TabIndex = 3;
             this._btnSalir.Text = "Salir";
             this._btnSalir.UseVisualStyleBackColor = true;
+            this._btnSalir.Click += new System.EventHandler(this._btnSalir_Click);
             // 
             // FrmVentas
             // 

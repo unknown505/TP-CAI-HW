@@ -1,0 +1,6 @@
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Entidades\bin\Debug\TP-CAI-HW.Entidades.dll
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Entidades\bin\Debug\TP-CAI-HW.Entidades.pdb
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Entidades\obj\Debug\TP-CAI-HW.Entidades.csprojAssemblyReference.cache
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Entidades\obj\Debug\TP-CAI-HW.Entidades.csproj.CoreCompileInputs.cache
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Entidades\obj\Debug\TP-CAI-HW.Entidades.dll
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Entidades\obj\Debug\TP-CAI-HW.Entidades.pdb

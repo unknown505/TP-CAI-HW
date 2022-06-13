@@ -44,6 +44,7 @@ namespace TP_CAI_HW.Interfaz
             this._btnIngresarProveedor.TabIndex = 1;
             this._btnIngresarProveedor.Text = "Ingresar Proveedor";
             this._btnIngresarProveedor.UseVisualStyleBackColor = true;
+            this._btnIngresarProveedor.Click += new System.EventHandler(this._btnIngresarProveedor_Click);
             // 
             // _btnConsultarProveedor
             // 
@@ -54,6 +55,7 @@ namespace TP_CAI_HW.Interfaz
             this._btnConsultarProveedor.TabIndex = 2;
             this._btnConsultarProveedor.Text = "Consultar Proveedor";
             this._btnConsultarProveedor.UseVisualStyleBackColor = true;
+            this._btnConsultarProveedor.Click += new System.EventHandler(this._btnConsultarProveedor_Click);
             // 
             // _lblProveedores
             // 
@@ -74,6 +76,7 @@ namespace TP_CAI_HW.Interfaz
             this._btnSalir.TabIndex = 4;
             this._btnSalir.Text = "Salir";
             this._btnSalir.UseVisualStyleBackColor = true;
+            this._btnSalir.Click += new System.EventHandler(this._btnSalir_Click);
             // 
             // FrmProveedores
             // 
