@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TP_CAI_HW;
 
 namespace TP_CAI_HW.Interfaz
 {

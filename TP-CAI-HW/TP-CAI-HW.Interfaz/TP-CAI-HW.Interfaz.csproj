@@ -178,5 +178,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TP-CAI-HW.Entidades\TP-CAI-HW.Entidades.csproj">
+      <Project>{08801f86-2dca-4952-8fe9-e9f01a0c8304}</Project>
+      <Name>TP-CAI-HW.Entidades</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TP-CAI-WH.Negocio\TP-CAI-WH.Negocio.csproj">
+      <Project>{e7ade039-73d6-40b6-a961-529404ab0af3}</Project>
+      <Name>TP-CAI-WH.Negocio</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

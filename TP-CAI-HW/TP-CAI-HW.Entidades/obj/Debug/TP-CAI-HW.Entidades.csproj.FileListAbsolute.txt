@@ -1,0 +1,2 @@
+D:\Cursos\TP-CAI-HW-Github\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Entidades\obj\Debug\TP-CAI-HW.Entidades.csproj.AssemblyReference.cache
+D:\Cursos\TP-CAI-HW-Github\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Entidades\obj\Debug\TP-CAI-HW.Entidades.csproj.CoreCompileInputs.cache
