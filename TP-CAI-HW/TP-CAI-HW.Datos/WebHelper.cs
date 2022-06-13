@@ -19,7 +19,7 @@ namespace TP_CAI_HW.Datos
         {
             client = new WebClient();
             client.Encoding = Encoding.UTF8;
-            rutaBase = ConfigurationManager.AppSetting["URL_API"];
+            rutaBase = "https://cai-api.azurewebsites.net/api/v1/VentaHardware/";
             client.Headers.Add("ContentType", "application/json");
             ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
         }
