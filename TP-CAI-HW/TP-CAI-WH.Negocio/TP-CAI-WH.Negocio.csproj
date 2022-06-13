@@ -44,5 +44,15 @@
     <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TP-CAI-HW.Datos\TP-CAI-HW.Datos.csproj">
+      <Project>{6890480c-0aa3-487f-9649-8706531b7d6c}</Project>
+      <Name>TP-CAI-HW.Datos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\TP-CAI-HW.Entidades\TP-CAI-HW.Entidades.csproj">
+      <Project>{08801f86-2dca-4952-8fe9-e9f01a0c8304}</Project>
+      <Name>TP-CAI-HW.Entidades</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
