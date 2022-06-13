@@ -16,5 +16,25 @@ namespace TP_CAI_HW.Interfaz
         {
             InitializeComponent();
         }
+
+        private void _btnIngresarCliente_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void _btnConsultarCliente_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void _btnSalir_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FrmClientes_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

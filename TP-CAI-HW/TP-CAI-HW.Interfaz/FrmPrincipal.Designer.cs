@@ -47,6 +47,7 @@ namespace TP_CAI_HW.Interfaz
             this.btnProductos.TabIndex = 0;
             this.btnProductos.Text = "Productos";
             this.btnProductos.UseVisualStyleBackColor = true;
+            this.btnProductos.Click += new System.EventHandler(this.btnProductos_Click);
             // 
             // btnProveedores
             // 
@@ -57,6 +58,7 @@ namespace TP_CAI_HW.Interfaz
             this.btnProveedores.TabIndex = 1;
             this.btnProveedores.Text = "Proveedores";
             this.btnProveedores.UseVisualStyleBackColor = true;
+            this.btnProveedores.Click += new System.EventHandler(this.btnProveedores_Click);
             // 
             // btnClientes
             // 
@@ -67,6 +69,7 @@ namespace TP_CAI_HW.Interfaz
             this.btnClientes.TabIndex = 2;
             this.btnClientes.Text = "Clientes";
             this.btnClientes.UseVisualStyleBackColor = true;
+            this.btnClientes.Click += new System.EventHandler(this.btnClientes_Click);
             // 
             // btnVentas
             // 
@@ -77,6 +80,7 @@ namespace TP_CAI_HW.Interfaz
             this.btnVentas.TabIndex = 3;
             this.btnVentas.Text = "Ventas";
             this.btnVentas.UseVisualStyleBackColor = true;
+            this.btnVentas.Click += new System.EventHandler(this.btnVentas_Click);
             // 
             // btnReportes
             // 
@@ -87,6 +91,7 @@ namespace TP_CAI_HW.Interfaz
             this.btnReportes.TabIndex = 4;
             this.btnReportes.Text = "Reportes";
             this.btnReportes.UseVisualStyleBackColor = true;
+            this.btnReportes.Click += new System.EventHandler(this.btnReportes_Click);
             // 
             // btnSalir
             // 
@@ -97,6 +102,7 @@ namespace TP_CAI_HW.Interfaz
             this.btnSalir.TabIndex = 5;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // _lblPrincipal
             // 

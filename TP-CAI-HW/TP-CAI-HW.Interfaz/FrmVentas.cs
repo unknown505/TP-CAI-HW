@@ -16,5 +16,20 @@ namespace TP_CAI_HW.Interfaz
         {
             InitializeComponent();
         }
+
+        private void btnIngresarVenta_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void _btnConsultarVenta_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void _btnSalir_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

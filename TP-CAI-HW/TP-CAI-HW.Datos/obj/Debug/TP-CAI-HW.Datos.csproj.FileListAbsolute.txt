@@ -1,0 +1,2 @@
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Datos\obj\Debug\TP-CAI-HW.Datos.csprojAssemblyReference.cache
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Datos\obj\Debug\TP-CAI-HW.Datos.csproj.CoreCompileInputs.cache

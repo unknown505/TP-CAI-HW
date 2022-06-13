@@ -53,6 +53,7 @@ namespace TP_CAI_HW.Interfaz
             this._btnSalir.TabIndex = 44;
             this._btnSalir.Text = "Salir";
             this._btnSalir.UseVisualStyleBackColor = true;
+            this._btnSalir.Click += new System.EventHandler(this._btnSalir_Click);
             // 
             // _btnConsultar
             // 
@@ -63,6 +64,7 @@ namespace TP_CAI_HW.Interfaz
             this._btnConsultar.TabIndex = 43;
             this._btnConsultar.Text = "Consultar";
             this._btnConsultar.UseVisualStyleBackColor = true;
+            this._btnConsultar.Click += new System.EventHandler(this._btnConsultar_Click);
             // 
             // _lblVentaAConsultar
             // 

@@ -52,6 +52,7 @@ namespace TP_CAI_HW.Interfaz
             this._btnLimpiar.TabIndex = 27;
             this._btnLimpiar.Text = "Limpiar";
             this._btnLimpiar.UseVisualStyleBackColor = true;
+            this._btnLimpiar.Click += new System.EventHandler(this._btnLimpiar_Click);
             // 
             // _btnSalir
             // 
@@ -62,6 +63,7 @@ namespace TP_CAI_HW.Interfaz
             this._btnSalir.TabIndex = 26;
             this._btnSalir.Text = "Salir";
             this._btnSalir.UseVisualStyleBackColor = true;
+            this._btnSalir.Click += new System.EventHandler(this._btnSalir_Click);
             // 
             // _btnIngresar
             // 
@@ -72,6 +74,7 @@ namespace TP_CAI_HW.Interfaz
             this._btnIngresar.TabIndex = 25;
             this._btnIngresar.Text = "Ingresar";
             this._btnIngresar.UseVisualStyleBackColor = true;
+            this._btnIngresar.Click += new System.EventHandler(this._btnIngresar_Click);
             // 
             // _txtTelefono
             // 

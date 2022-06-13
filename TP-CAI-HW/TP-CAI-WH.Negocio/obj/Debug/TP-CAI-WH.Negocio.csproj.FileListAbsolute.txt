@@ -1,0 +1,2 @@
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-WH.Negocio\obj\Debug\TP-CAI-WH.Negocio.csprojAssemblyReference.cache
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-WH.Negocio\obj\Debug\TP-CAI-WH.Negocio.csproj.CoreCompileInputs.cache
