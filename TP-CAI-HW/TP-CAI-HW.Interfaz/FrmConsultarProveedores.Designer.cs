@@ -29,12 +29,84 @@ namespace TP_CAI_HW.Interfaz
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this._cboBoxProveedor = new System.Windows.Forms.ComboBox();
+            this._btnSalir = new System.Windows.Forms.Button();
+            this._btnConsultar = new System.Windows.Forms.Button();
+            this._lblProveedorAConsultar = new System.Windows.Forms.Label();
+            this._lblProveedor = new System.Windows.Forms.Label();
+            this.SuspendLayout();
+            // 
+            // _cboBoxProveedor
+            // 
+            this._cboBoxProveedor.FormattingEnabled = true;
+            this._cboBoxProveedor.Location = new System.Drawing.Point(152, 77);
+            this._cboBoxProveedor.Name = "_cboBoxProveedor";
+            this._cboBoxProveedor.Size = new System.Drawing.Size(154, 21);
+            this._cboBoxProveedor.TabIndex = 52;
+            // 
+            // _btnSalir
+            // 
+            this._btnSalir.Font = new System.Drawing.Font("Gadugi", 9F, System.Drawing.FontStyle.Bold);
+            this._btnSalir.Location = new System.Drawing.Point(49, 140);
+            this._btnSalir.Name = "_btnSalir";
+            this._btnSalir.Size = new System.Drawing.Size(90, 35);
+            this._btnSalir.TabIndex = 51;
+            this._btnSalir.Text = "Salir";
+            this._btnSalir.UseVisualStyleBackColor = true;
+            // 
+            // _btnConsultar
+            // 
+            this._btnConsultar.Font = new System.Drawing.Font("Gadugi", 9F, System.Drawing.FontStyle.Bold);
+            this._btnConsultar.Location = new System.Drawing.Point(216, 140);
+            this._btnConsultar.Name = "_btnConsultar";
+            this._btnConsultar.Size = new System.Drawing.Size(90, 35);
+            this._btnConsultar.TabIndex = 50;
+            this._btnConsultar.Text = "Consultar";
+            this._btnConsultar.UseVisualStyleBackColor = true;
+            // 
+            // _lblProveedorAConsultar
+            // 
+            this._lblProveedorAConsultar.AutoSize = true;
+            this._lblProveedorAConsultar.Font = new System.Drawing.Font("Gadugi", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._lblProveedorAConsultar.Location = new System.Drawing.Point(97, 21);
+            this._lblProveedorAConsultar.Name = "_lblProveedorAConsultar";
+            this._lblProveedorAConsultar.Size = new System.Drawing.Size(164, 19);
+            this._lblProveedorAConsultar.TabIndex = 49;
+            this._lblProveedorAConsultar.Text = "Proveedor a Consultar";
+            // 
+            // _lblProveedor
+            // 
+            this._lblProveedor.AutoSize = true;
+            this._lblProveedor.Font = new System.Drawing.Font("Gadugi", 9F, System.Drawing.FontStyle.Bold);
+            this._lblProveedor.Location = new System.Drawing.Point(55, 78);
+            this._lblProveedor.Name = "_lblProveedor";
+            this._lblProveedor.Size = new System.Drawing.Size(67, 16);
+            this._lblProveedor.TabIndex = 48;
+            this._lblProveedor.Text = "Proveedor";
+            // 
+            // FrmConsultarProveedores
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "FrmConsultarProveedores";
+            this.ClientSize = new System.Drawing.Size(369, 205);
+            this.Controls.Add(this._cboBoxProveedor);
+            this.Controls.Add(this._btnSalir);
+            this.Controls.Add(this._btnConsultar);
+            this.Controls.Add(this._lblProveedorAConsultar);
+            this.Controls.Add(this._lblProveedor);
+            this.Name = "FrmConsultarProveedores";
+            this.Text = "Hardware Springfield - Consultar Proveedor";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.ComboBox _cboBoxProveedor;
+        private System.Windows.Forms.Button _btnSalir;
+        private System.Windows.Forms.Button _btnConsultar;
+        private System.Windows.Forms.Label _lblProveedorAConsultar;
+        private System.Windows.Forms.Label _lblProveedor;
     }
 }

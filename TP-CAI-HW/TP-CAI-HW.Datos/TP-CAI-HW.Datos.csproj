@@ -48,5 +48,11 @@
     <Compile Include="WebHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TP-CAI-HW.Entidades\TP-CAI-HW.Entidades.csproj">
+      <Project>{08801f86-2dca-4952-8fe9-e9f01a0c8304}</Project>
+      <Name>TP-CAI-HW.Entidades</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
