@@ -98,6 +98,7 @@ namespace TP_CAI_HW.Interfaz
             this.Controls.Add(this._lblProducto);
             this.Name = "FrmConsultarProductos";
             this.Text = "Hardware Springfield - Consultar Producto";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmConsultarProductos_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

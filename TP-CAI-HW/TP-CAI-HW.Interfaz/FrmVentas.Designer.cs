@@ -89,6 +89,7 @@ namespace TP_CAI_HW.Interfaz
             this.Controls.Add(this.btnIngresarVenta);
             this.Name = "FrmVentas";
             this.Text = "Hardware Springfield - Ventas";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmVentas_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

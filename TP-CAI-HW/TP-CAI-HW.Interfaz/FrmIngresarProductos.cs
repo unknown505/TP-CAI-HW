@@ -12,8 +12,9 @@ namespace TP_CAI_HW.Interfaz
 {
     public partial class FrmIngresarProductos : Form
     {
-        public FrmIngresarProductos()
+        public FrmIngresarProductos(FrmProductos Owner)
         {
+            this.Owner = Owner;
             InitializeComponent();
         }
 
@@ -28,6 +29,12 @@ namespace TP_CAI_HW.Interfaz
         }
 
         private void _btnSalir_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            this.Owner.Show();
+        }
+
+        private void FrmIngresarProductos_FormClosing(object sender, FormClosingEventArgs e)
         {
 
         }
