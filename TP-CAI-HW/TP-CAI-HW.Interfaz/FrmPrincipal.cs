@@ -15,15 +15,7 @@ namespace TP_CAI_HW.Interfaz
         private FrmClientes _frmClientes;
         private FrmProductos _frmProductos;
         private FrmProveedores _frmProveedores;
-        private FrmVentas _frmVentas;
-        private FrmIngresarClientes _frmIngresarClientes;
-        private FrmIngresarProductos _frmIngresarProductos;
-        private FrmIngresarProveedores _frmIngresarProveedores;
-        private FrmIngresarVentas _frmIngresarVentas;
-        private FrmConsultarClientes _frmConsultarClientes;
-        private FrmConsultarProductos _frmConsultarProductos;
-        private FrmConsultarProveedores _frmConsultarProveedores;
-        private FrmConsultarVentas _frmConsultarVentas;
+        private FrmVentas _frmVentas;        
         private FrmReportes _frmReportes;
 
 
@@ -32,15 +24,7 @@ namespace TP_CAI_HW.Interfaz
             _frmClientes = new FrmClientes(this);
             _frmProductos = new FrmProductos(this);
             _frmProveedores = new FrmProveedores(this);
-            _frmVentas = new FrmVentas(this);
-            _frmIngresarClientes = new FrmIngresarClientes(this);
-            _frmIngresarProductos = new FrmIngresarProductos(this);
-            _frmIngresarProveedores = new FrmIngresarProveedores(this);
-            _frmIngresarVentas = new FrmIngresarVentas(this);
-            _frmConsultarClientes = new FrmConsultarClientes(this);
-            _frmConsultarProductos = new FrmConsultarProductos(this);
-            _frmConsultarProveedores = new FrmConsultarProveedores(this);
-            _frmConsultarVentas = new FrmConsultarVentas(this);
+            _frmVentas = new FrmVentas(this);                     
             _frmReportes = new FrmReportes(this);
 
             InitializeComponent();
@@ -79,7 +63,24 @@ namespace TP_CAI_HW.Interfaz
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
+            MessageBoxButtons buttons = MessageBoxButtons.OK;
+            MessageBox.Show("Este botón aún no está terminado.", "Error", buttons);
+        }
 
+        private void FrmPrincipal_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            string message = "¿Quiere salir del sistema?";
+            string title = "Test";
+            MessageBoxButtons buttons = MessageBoxButtons.OKCancel;
+            DialogResult result = MessageBox.Show(message, title, buttons);
+            if (result == DialogResult.OK)
+            {
+
+            }
+            else
+            {
+                e.Cancel = true;
+            }
         }
     }
 }

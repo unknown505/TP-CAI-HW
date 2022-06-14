@@ -12,17 +12,24 @@ namespace TP_CAI_HW.Interfaz
 {
     public partial class FrmConsultarProductos : Form
     {
-        public FrmConsultarProductos()
+        public FrmConsultarProductos(FrmProductos Owner)
         {
+            this.Owner = Owner;
             InitializeComponent();
         }
 
         private void _btnSalir_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            this.Owner.Show();
         }
 
         private void _btnConsultar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FrmConsultarProductos_FormClosing(object sender, FormClosingEventArgs e)
         {
 
         }

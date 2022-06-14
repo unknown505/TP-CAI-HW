@@ -98,6 +98,7 @@ namespace TP_CAI_HW.Interfaz
             this.Controls.Add(this._lblProveedor);
             this.Name = "FrmConsultarProveedores";
             this.Text = "Hardware Springfield - Consultar Proveedor";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmConsultarProveedores_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

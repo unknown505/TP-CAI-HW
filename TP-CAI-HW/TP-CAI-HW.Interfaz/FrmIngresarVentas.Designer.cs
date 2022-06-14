@@ -175,6 +175,7 @@ namespace TP_CAI_HW.Interfaz
             this.Controls.Add(this._lblCliente);
             this.Name = "FrmIngresarVentas";
             this.Text = "Hardware Springfield - Ingresar Venta";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmIngresarVentas_FormClosing);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -12,24 +12,37 @@ namespace TP_CAI_HW.Interfaz
 {
     public partial class FrmProveedores : Form
     {
-        public FrmProveedores()
+        private FrmIngresarProveedores _frmIngresarProveedores;
+        private FrmConsultarProveedores _frmConsultarProveedores;
+        public FrmProveedores(FrmPrincipal Owner)
         {
+            _frmIngresarProveedores = new FrmIngresarProveedores(this);
+            _frmConsultarProveedores = new FrmConsultarProveedores(this);
+            this.Owner = Owner;
             InitializeComponent();
         }
 
         private void _btnIngresarProveedor_Click(object sender, EventArgs e)
         {
-
+            _frmIngresarProveedores.Show();
+            this.Hide();
         }
 
         private void _btnConsultarProveedor_Click(object sender, EventArgs e)
         {
-
+            _frmConsultarProveedores.Show();
+            this.Hide();
         }
 
         private void _btnSalir_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            this.Owner.Show();
+        }
 
+        private void FrmProveedores_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            
         }
     }
 }
