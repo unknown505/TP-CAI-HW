@@ -1,2 +1,13 @@
 C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Datos\obj\Debug\TP-CAI-HW.Datos.csprojAssemblyReference.cache
 C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Datos\obj\Debug\TP-CAI-HW.Datos.csproj.CoreCompileInputs.cache
+D:\Cursos\TP-CAI-HW-Github\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Datos\bin\Debug\TP-CAI-HW.Datos.dll
+D:\Cursos\TP-CAI-HW-Github\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Datos\bin\Debug\TP-CAI-HW.Datos.pdb
+D:\Cursos\TP-CAI-HW-Github\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Datos\bin\Debug\Newtonsoft.Json.dll
+D:\Cursos\TP-CAI-HW-Github\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Datos\bin\Debug\TP-CAI-HW.Entidades.dll
+D:\Cursos\TP-CAI-HW-Github\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Datos\bin\Debug\TP-CAI-HW.Entidades.pdb
+D:\Cursos\TP-CAI-HW-Github\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Datos\bin\Debug\Newtonsoft.Json.xml
+D:\Cursos\TP-CAI-HW-Github\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Datos\obj\Debug\TP-CAI-HW.Datos.csproj.AssemblyReference.cache
+D:\Cursos\TP-CAI-HW-Github\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Datos\obj\Debug\TP-CAI-HW.Datos.csproj.CoreCompileInputs.cache
+D:\Cursos\TP-CAI-HW-Github\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Datos\obj\Debug\TP-CAI-HW.Datos.csproj.CopyComplete
+D:\Cursos\TP-CAI-HW-Github\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Datos\obj\Debug\TP-CAI-HW.Datos.dll
+D:\Cursos\TP-CAI-HW-Github\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Datos\obj\Debug\TP-CAI-HW.Datos.pdb
