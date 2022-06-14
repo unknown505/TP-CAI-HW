@@ -18,7 +18,6 @@ namespace TP_CAI_HW.Entidades
         private int _stock;
         private int _idProveedor;
         private int _usuario;
-        private int _id;
 
         public int IdCategoria { get => _idCategoria; set => _idCategoria = value; }
         public string Nombre { get => _nombre; set => _nombre = value; }
@@ -31,11 +30,17 @@ namespace TP_CAI_HW.Entidades
 
 
 
-        public Productos(string IdProveedor, string IdProducto, string Nombre, double Precio, int Stock)
+        public Productos(int IdProducto, int IdCategoria, string Nombre, DateTime FechaAlta,  double Precio, int Stock, int IdProveedor, int Usuario)
         {
-            //_idProducto;
-            //_idCategoria;
-            //_fechaAlta = DateTime.Now("dd/MM/yyyy");
+            _idCategoria = IdCategoria;
+            _nombre = Nombre;
+            _fechaAlta = FechaAlta;
+            _precio = Precio;
+            _stock = Stock;
+            _idProveedor = IdProveedor;
+            _usuario = Usuario;
+            _idProducto = IdProducto;
+
         }
     }
 }

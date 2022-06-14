@@ -36,11 +36,18 @@ namespace TP_CAI_HW.Entidades
 
 
 
-        public Proveedores(int IdProveedor, int IdProducto)
+        public Proveedores(int IdProducto, string Nombre, string Apellido, string Email, string Cuit, bool Activo, DateTime FechaAlta, DateTime FechaBaja, int Usuario, string IdProveedor)
         {
-            //_idProveedor;
-            //_idProducto;
-            //_fechaAlta = DateTime.Now("dd/MM/yyyy");           
+            _idProducto = IdProducto;
+            _nombre = Nombre;
+            _apellido = Apellido;
+            _email = Email;
+            _cuit = Cuit;
+            _actividad = Activo;
+            _fechaAlta = FechaAlta;
+            _fechaBaja = FechaBaja;
+            _usuario = Usuario;
+            _idProveedor = IdProveedor;
         }
     }
 }

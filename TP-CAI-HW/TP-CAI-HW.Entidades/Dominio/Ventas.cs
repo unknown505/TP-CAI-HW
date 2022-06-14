@@ -26,13 +26,15 @@ namespace TP_CAI_HW.Entidades
         public int IdVenta { get => _idVenta; set => _idVenta = value; }
 
 
-        public Ventas(string IdVenta, string IdCliente, string IdProducto, int Cantidad)
+        public Ventas(int IdCliente, int IdProducto, int Cantidad, int Estado, DateTime FechaAlta, int Usuario, int IdVenta)
         {
-            //_idVenta;
-            //_idCliente;
-            //_idProducto;
-            //_cantidad
-            //_fechaAlta = DateTime.Now("dd/MM/yyyy");
+            _idCliente = IdCliente;
+            _idProducto = IdProducto;
+            _cantidad = Cantidad;
+            _estado = Estado;
+            _fechaAlta = FechaAlta;
+            _usuario = Usuario;
+            _idVenta = IdVenta;
         }
     }
 }
