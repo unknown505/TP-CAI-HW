@@ -6,21 +6,38 @@ using System.Threading.Tasks;
 
 namespace TP_CAI_HW.Entidades
 {
-    class Cliente : Persona
+    public class Cliente : Persona
     {
-        private string _idCliente;
-        private string _fechaAlta; //modificar a datetime
-        private bool _cliActivo;
+        private int _dni;
+        private DateTime _fechaNac;
+        private DateTime _fechaAlta;
+        private bool _actividad;
+        private string _usuario;
+        private string _host;
+        private int _idCliente;
 
-        public string IdCliente { get => _idCliente; set => _idCliente = value; }
-        public string FechaAlta { get => _fechaAlta; set => _fechaAlta = value; }
-        public bool Activo { get => _cliActivo; set => _cliActivo = value; }
+        public int Dni { get => _dni; set => _dni = value; }
+        public DateTime FechaNac { get => _fechaNac; set => _fechaNac = value; }
+        public DateTime FechaAlta { get => _fechaAlta; set => _fechaAlta = value; }
+        public bool Activo { get => _actividad; set => _actividad = value; }
+        public string Usuario { get => _usuario; set => _usuario = value; }
+        public string Host { get => _host; set => _host = value; }
+        public int IdCliente { get => _idCliente; set => _idCliente = value; }
 
-        public Cliente(string Nombre, string Apellido, string Direccion, long Telefono, string Mail) : base(Nombre, Apellido, Direccion, Telefono, Mail)
+        public Cliente(string Nombre, string Apellido, string Direccion, string Telefono, string Email, int Dni, DateTime FechaNac, DateTime FechaAlta, bool Activo, string Usuario, string Host, int IdCliente ) : base(Nombre, Apellido, Direccion, Telefono, Email)
         {
-            //_idCliente
-            //_fechaAlta = DateTime.Now("dd/MM/yyyy");
-            _cliActivo = true;
+            _dni = Dni;
+            _nombre = Nombre;
+            _apellido = Apellido;
+            _direccion = Direccion;
+            _email = Email;
+            _telefono = Telefono;
+            _fechaNac = FechaNac;
+            _fechaAlta = FechaAlta;
+            _actividad = Activo;
+            _usuario = Usuario;
+            _host = Host;
+            _idCliente = IdCliente;
         }
     }
 }

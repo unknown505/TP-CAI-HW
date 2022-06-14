@@ -7,6 +7,7 @@ using System.Text;
 using System.Threading.Tasks;
 using TP_CAI_HW.Entidades;
 using TP_CAI_HW.Entidades.Dominio;
+using TP_CAI_HW.Entidades.Dominio.Exepciones_;
 using Newtonsoft.Json;
 namespace TP_CAI_HW.Datos
 {
@@ -39,8 +40,7 @@ namespace TP_CAI_HW.Datos
             }
             else
             {
-                return p;
-                //throw Exception("error"); //Exception;
+                throw new EXCodigoNoEncontrado(IdVenta);
             }
 
         }

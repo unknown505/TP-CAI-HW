@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Dominio\Cliente.cs" />
+    <Compile Include="Dominio\Exepciones-\EXCodigoNoEncontrado.cs" />
     <Compile Include="Dominio\Persona.cs" />
     <Compile Include="Dominio\Productos.cs" />
     <Compile Include="Dominio\TransactionResult.cs" />
