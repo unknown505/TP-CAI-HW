@@ -28,15 +28,18 @@ namespace TP_CAI_HW.Interfaz
 
         }
 
-        private void _btnSalir_Click(object sender, EventArgs e)
+        private void _btnAtras_Click(object sender, EventArgs e)
         {
-            this.Hide();
             this.Owner.Show();
+            this.Dispose();
         }
 
         private void FrmIngresarProveedores_FormClosing(object sender, FormClosingEventArgs e)
         {
-
+            this.Owner.Show();
+            this.Dispose();
         }
+
+
     }
 }

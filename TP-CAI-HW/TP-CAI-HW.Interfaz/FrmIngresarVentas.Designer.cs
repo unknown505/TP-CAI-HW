@@ -30,7 +30,7 @@ namespace TP_CAI_HW.Interfaz
         private void InitializeComponent()
         {
             this._btnLimpiar = new System.Windows.Forms.Button();
-            this._btnSalir = new System.Windows.Forms.Button();
+            this._btnAtras = new System.Windows.Forms.Button();
             this._btnIngresar = new System.Windows.Forms.Button();
             this._txtTelefono = new System.Windows.Forms.TextBox();
             this._txtCantidad = new System.Windows.Forms.TextBox();
@@ -54,16 +54,16 @@ namespace TP_CAI_HW.Interfaz
             this._btnLimpiar.UseVisualStyleBackColor = true;
             this._btnLimpiar.Click += new System.EventHandler(this._btnLimpiar_Click);
             // 
-            // _btnSalir
+            // _btnAtras
             // 
-            this._btnSalir.Font = new System.Drawing.Font("Gadugi", 9F, System.Drawing.FontStyle.Bold);
-            this._btnSalir.Location = new System.Drawing.Point(278, 331);
-            this._btnSalir.Name = "_btnSalir";
-            this._btnSalir.Size = new System.Drawing.Size(90, 35);
-            this._btnSalir.TabIndex = 26;
-            this._btnSalir.Text = "Salir";
-            this._btnSalir.UseVisualStyleBackColor = true;
-            this._btnSalir.Click += new System.EventHandler(this._btnSalir_Click);
+            this._btnAtras.Font = new System.Drawing.Font("Gadugi", 9F, System.Drawing.FontStyle.Bold);
+            this._btnAtras.Location = new System.Drawing.Point(85, 328);
+            this._btnAtras.Name = "_btnAtras";
+            this._btnAtras.Size = new System.Drawing.Size(90, 35);
+            this._btnAtras.TabIndex = 26;
+            this._btnAtras.Text = "Atrás";
+            this._btnAtras.UseVisualStyleBackColor = true;
+            this._btnAtras.Click += new System.EventHandler(this._btnAtras_Click);
             // 
             // _btnIngresar
             // 
@@ -164,7 +164,7 @@ namespace TP_CAI_HW.Interfaz
             this.Controls.Add(this._cboBoxCliente);
             this.Controls.Add(this._cboBoxProducto);
             this.Controls.Add(this._btnLimpiar);
-            this.Controls.Add(this._btnSalir);
+            this.Controls.Add(this._btnAtras);
             this.Controls.Add(this._btnIngresar);
             this.Controls.Add(this._txtTelefono);
             this.Controls.Add(this._txtCantidad);
@@ -184,7 +184,7 @@ namespace TP_CAI_HW.Interfaz
         #endregion
 
         private System.Windows.Forms.Button _btnLimpiar;
-        private System.Windows.Forms.Button _btnSalir;
+        private System.Windows.Forms.Button _btnAtras;
         private System.Windows.Forms.Button _btnIngresar;
         private System.Windows.Forms.TextBox _txtTelefono;
         private System.Windows.Forms.TextBox _txtCantidad;
