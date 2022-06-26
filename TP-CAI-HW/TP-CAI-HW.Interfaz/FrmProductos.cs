@@ -17,33 +17,36 @@ namespace TP_CAI_HW.Interfaz
 
         public FrmProductos(FrmPrincipal Owner)
         {
-            _frmIngresarProductos = new FrmIngresarProductos(this);
-            _frmConsultarProductos = new FrmConsultarProductos(this);
             this.Owner = Owner;
             InitializeComponent();
         }
 
         private void _btnIngresarProducto_Click(object sender, EventArgs e)
         {
+            _frmIngresarProductos = new FrmIngresarProductos(this);
             _frmIngresarProductos.Show();
             this.Hide();
         }
 
         private void _btnConsultarProducto_Click(object sender, EventArgs e)
         {
+            _frmConsultarProductos = new FrmConsultarProductos(this);
             _frmConsultarProductos.Show();
             this.Hide();
         }
 
-        private void _btnSalir_Click(object sender, EventArgs e)
+        private void _btnAtras_Click(object sender, EventArgs e)
         {
-            this.Hide();
             this.Owner.Show();
+            this.Dispose();
         }
 
         private void FrmProductos_FormClosing(object sender, FormClosingEventArgs e)
         {
-
+            this.Owner.Show();
+            this.Dispose();
         }
+
+
     }
 }

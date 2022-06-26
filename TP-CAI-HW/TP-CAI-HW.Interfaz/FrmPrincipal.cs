@@ -20,18 +20,13 @@ namespace TP_CAI_HW.Interfaz
 
 
         public FrmPrincipal()
-        {
-            _frmClientes = new FrmClientes(this);
-            _frmProductos = new FrmProductos(this);
-            _frmProveedores = new FrmProveedores(this);
-            _frmVentas = new FrmVentas(this);                     
-            _frmReportes = new FrmReportes(this);
-
+        {                                                                 
             InitializeComponent();
         }
 
         private void btnProductos_Click(object sender, EventArgs e)
         {
+            _frmProductos = new FrmProductos(this);
             _frmProductos.Show();
             this.Hide();
 
@@ -39,38 +34,43 @@ namespace TP_CAI_HW.Interfaz
 
         private void btnProveedores_Click(object sender, EventArgs e)
         {
+            _frmProveedores = new FrmProveedores(this);
             _frmProveedores.Show();
             this.Hide();
         }
 
         private void btnClientes_Click(object sender, EventArgs e)
         {
+            _frmClientes = new FrmClientes(this);
             _frmClientes.Show();
             this.Hide();
         }
 
         private void btnVentas_Click(object sender, EventArgs e)
         {
+            _frmVentas = new FrmVentas(this);
             _frmVentas.Show();
             this.Hide();
         }
 
         private void btnReportes_Click(object sender, EventArgs e)
         {
+            _frmReportes = new FrmReportes(this);
             _frmReportes.Show();
             this.Hide();
         }
 
         private void btnSalir_Click(object sender, EventArgs e)
         {
-            MessageBoxButtons buttons = MessageBoxButtons.OK;
-            MessageBox.Show("Este botón aún no está terminado.", "Error", buttons);
+            Application.Exit();
+
         }
 
-        private void FrmPrincipal_FormClosing(object sender, FormClosingEventArgs e)
+        public void FrmPrincipal_FormClosing(object sender, FormClosingEventArgs e)
         {
+
             string message = "¿Quiere salir del sistema?";
-            string title = "Test";
+            string title = "Salir";
             MessageBoxButtons buttons = MessageBoxButtons.OKCancel;
             DialogResult result = MessageBox.Show(message, title, buttons);
             if (result == DialogResult.OK)
@@ -82,5 +82,8 @@ namespace TP_CAI_HW.Interfaz
                 e.Cancel = true;
             }
         }
+
+
+
     }
 }

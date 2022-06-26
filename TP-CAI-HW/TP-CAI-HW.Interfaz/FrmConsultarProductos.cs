@@ -18,20 +18,24 @@ namespace TP_CAI_HW.Interfaz
             InitializeComponent();
         }
 
-        private void _btnSalir_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            this.Owner.Show();
-        }
+
 
         private void _btnConsultar_Click(object sender, EventArgs e)
         {
 
         }
-
-        private void FrmConsultarProductos_FormClosing(object sender, FormClosingEventArgs e)
+        private void _btnAtras_Click(object sender, EventArgs e)
         {
+            this.Owner.Show();
+            this.Dispose();
 
         }
+        private void FrmConsultarProductos_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            this.Owner.Show();
+            this.Dispose();
+        }
+
+
     }
 }

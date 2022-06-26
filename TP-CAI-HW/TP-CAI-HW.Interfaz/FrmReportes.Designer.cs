@@ -64,7 +64,7 @@ namespace TP_CAI_HW.Interfaz
             this._btnAtras.Name = "_btnAtras";
             this._btnAtras.Size = new System.Drawing.Size(204, 47);
             this._btnAtras.TabIndex = 2;
-            this._btnAtras.Text = "Atras";
+            this._btnAtras.Text = "Atrás";
             this._btnAtras.UseVisualStyleBackColor = true;
             this._btnAtras.Click += new System.EventHandler(this._btnAtras_Click);
             // 
