@@ -9,3 +9,4 @@ D:\Cursos\TP-CAI-HW-Github\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Entidades\obj\Debug\TP-
 D:\Cursos\TP-CAI-HW-Github\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Entidades\obj\Debug\TP-CAI-HW.Entidades.csproj.CoreCompileInputs.cache
 D:\Cursos\TP-CAI-HW-Github\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Entidades\obj\Debug\TP-CAI-HW.Entidades.dll
 D:\Cursos\TP-CAI-HW-Github\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Entidades\obj\Debug\TP-CAI-HW.Entidades.pdb
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Entidades\obj\Debug\TP-CAI-HW.Entidades.csprojAssemblyReference.cache

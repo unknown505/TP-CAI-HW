@@ -18,11 +18,7 @@ namespace TP_CAI_HW.Interfaz
             InitializeComponent();
         }
 
-        private void FrmReportes_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            this.Hide();
-            this.Owner.Show();
-        }
+
 
         private void _btnReporteVentasCliente_Click(object sender, EventArgs e)
         {
@@ -36,8 +32,13 @@ namespace TP_CAI_HW.Interfaz
 
         private void _btnAtras_Click(object sender, EventArgs e)
         {
-            this.Hide();
             this.Owner.Show();
+            this.Dispose();
+        }
+        private void FrmReportes_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            this.Owner.Show();
+            this.Dispose();
         }
     }
 }

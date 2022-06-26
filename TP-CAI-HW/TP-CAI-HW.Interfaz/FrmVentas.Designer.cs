@@ -32,7 +32,7 @@ namespace TP_CAI_HW.Interfaz
             this.btnIngresarVenta = new System.Windows.Forms.Button();
             this._btnConsultarVenta = new System.Windows.Forms.Button();
             this._lblVentas = new System.Windows.Forms.Label();
-            this._btnSalir = new System.Windows.Forms.Button();
+            this._btnAtras = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnIngresarVenta
@@ -67,23 +67,23 @@ namespace TP_CAI_HW.Interfaz
             this._lblVentas.TabIndex = 2;
             this._lblVentas.Text = "VENTAS";
             // 
-            // _btnSalir
+            // _btnAtras
             // 
-            this._btnSalir.Font = new System.Drawing.Font("Gadugi", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this._btnSalir.Location = new System.Drawing.Point(78, 173);
-            this._btnSalir.Name = "_btnSalir";
-            this._btnSalir.Size = new System.Drawing.Size(282, 36);
-            this._btnSalir.TabIndex = 3;
-            this._btnSalir.Text = "Salir";
-            this._btnSalir.UseVisualStyleBackColor = true;
-            this._btnSalir.Click += new System.EventHandler(this._btnSalir_Click);
+            this._btnAtras.Font = new System.Drawing.Font("Gadugi", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this._btnAtras.Location = new System.Drawing.Point(78, 173);
+            this._btnAtras.Name = "_btnAtras";
+            this._btnAtras.Size = new System.Drawing.Size(282, 36);
+            this._btnAtras.TabIndex = 3;
+            this._btnAtras.Text = "Atrás";
+            this._btnAtras.UseVisualStyleBackColor = true;
+            this._btnAtras.Click += new System.EventHandler(this._btnAtras_Click);
             // 
             // FrmVentas
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(447, 273);
-            this.Controls.Add(this._btnSalir);
+            this.Controls.Add(this._btnAtras);
             this.Controls.Add(this._lblVentas);
             this.Controls.Add(this._btnConsultarVenta);
             this.Controls.Add(this.btnIngresarVenta);
@@ -100,6 +100,6 @@ namespace TP_CAI_HW.Interfaz
         private System.Windows.Forms.Button btnIngresarVenta;
         private System.Windows.Forms.Button _btnConsultarVenta;
         private System.Windows.Forms.Label _lblVentas;
-        private System.Windows.Forms.Button _btnSalir;
+        private System.Windows.Forms.Button _btnAtras;
     }
 }

@@ -30,7 +30,7 @@ namespace TP_CAI_HW.Interfaz
         private void InitializeComponent()
         {
             this._cboBoxProveedor = new System.Windows.Forms.ComboBox();
-            this._btnSalir = new System.Windows.Forms.Button();
+            this._btnAtras = new System.Windows.Forms.Button();
             this._btnConsultar = new System.Windows.Forms.Button();
             this._lblProveedorAConsultar = new System.Windows.Forms.Label();
             this._lblProveedor = new System.Windows.Forms.Label();
@@ -44,16 +44,16 @@ namespace TP_CAI_HW.Interfaz
             this._cboBoxProveedor.Size = new System.Drawing.Size(154, 21);
             this._cboBoxProveedor.TabIndex = 52;
             // 
-            // _btnSalir
+            // _btnAtras
             // 
-            this._btnSalir.Font = new System.Drawing.Font("Gadugi", 9F, System.Drawing.FontStyle.Bold);
-            this._btnSalir.Location = new System.Drawing.Point(49, 140);
-            this._btnSalir.Name = "_btnSalir";
-            this._btnSalir.Size = new System.Drawing.Size(90, 35);
-            this._btnSalir.TabIndex = 51;
-            this._btnSalir.Text = "Salir";
-            this._btnSalir.UseVisualStyleBackColor = true;
-            this._btnSalir.Click += new System.EventHandler(this._btnSalir_Click);
+            this._btnAtras.Font = new System.Drawing.Font("Gadugi", 9F, System.Drawing.FontStyle.Bold);
+            this._btnAtras.Location = new System.Drawing.Point(49, 140);
+            this._btnAtras.Name = "_btnAtras";
+            this._btnAtras.Size = new System.Drawing.Size(90, 35);
+            this._btnAtras.TabIndex = 51;
+            this._btnAtras.Text = "Atrás";
+            this._btnAtras.UseVisualStyleBackColor = true;
+            this._btnAtras.Click += new System.EventHandler(this._btnAtras_Click);
             // 
             // _btnConsultar
             // 
@@ -92,7 +92,7 @@ namespace TP_CAI_HW.Interfaz
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(369, 205);
             this.Controls.Add(this._cboBoxProveedor);
-            this.Controls.Add(this._btnSalir);
+            this.Controls.Add(this._btnAtras);
             this.Controls.Add(this._btnConsultar);
             this.Controls.Add(this._lblProveedorAConsultar);
             this.Controls.Add(this._lblProveedor);
@@ -107,7 +107,7 @@ namespace TP_CAI_HW.Interfaz
         #endregion
 
         private System.Windows.Forms.ComboBox _cboBoxProveedor;
-        private System.Windows.Forms.Button _btnSalir;
+        private System.Windows.Forms.Button _btnAtras;
         private System.Windows.Forms.Button _btnConsultar;
         private System.Windows.Forms.Label _lblProveedorAConsultar;
         private System.Windows.Forms.Label _lblProveedor;
