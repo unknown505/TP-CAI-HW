@@ -24,7 +24,7 @@ namespace TP_CAI_HW.Datos
             n.Add("Cuit", proveedor.Cuit);
             n.Add("Activo", proveedor.Activo.ToString());
             n.Add("FechaAlta", proveedor.FechaAlta.ToString());
-            n.Add("FechaBaja", proveedor.FechaBaja.ToString());
+            //n.Add("FechaBaja", proveedor.FechaBaja.ToString());
             n.Add("Usuario", proveedor.Usuario.ToString());
             n.Add("IdProveedor", proveedor.IdProveedor.ToString());
             return n;
@@ -45,7 +45,7 @@ namespace TP_CAI_HW.Datos
             }
 
         }
-        public List<Proveedores> GetProvid()
+        public List<Proveedores> GetProv()
         {
             string json = WebHelper.Get("VentaHardware/Proveedores");
             List<Proveedores> proveedor = JsonConvert.DeserializeObject<List<Proveedores>>(json);

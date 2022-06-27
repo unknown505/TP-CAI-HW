@@ -20,7 +20,10 @@ namespace TP_CAI_HW.Interfaz
 
         private void _btnLimpiar_Click(object sender, EventArgs e)
         {
-
+            _cboBoxCliente.SelectedIndex = -1;
+            _cboBoxProducto.SelectedIndex = -1;
+            _txtCantidad.Text = string.Empty;
+            _txtTelefono.Text = string.Empty;
         }
 
         private void _btnIngresar_Click(object sender, EventArgs e)

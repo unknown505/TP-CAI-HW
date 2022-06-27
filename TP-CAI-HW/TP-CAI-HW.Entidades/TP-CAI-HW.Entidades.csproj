@@ -46,6 +46,7 @@
     <Compile Include="Dominio\Persona.cs" />
     <Compile Include="Dominio\Productos.cs" />
     <Compile Include="Dominio\TransactionResult.cs" />
+    <Compile Include="Enum\Categorias.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Dominio\Proveedores.cs" />
     <Compile Include="Utilidades\Validadores.cs" />
