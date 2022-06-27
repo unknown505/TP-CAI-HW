@@ -46,7 +46,7 @@ namespace TP_CAI_HW.Interfaz
             this._txtDNI = new System.Windows.Forms.TextBox();
             this._lblDNI = new System.Windows.Forms.Label();
             this._lblFechaNacimiento = new System.Windows.Forms.Label();
-            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this._dateTimePickerFechaNacimiento = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // _lblNombre
@@ -204,19 +204,19 @@ namespace TP_CAI_HW.Interfaz
             this._lblFechaNacimiento.TabIndex = 16;
             this._lblFechaNacimiento.Text = "Fecha de Nacimiento";
             // 
-            // dateTimePicker1
+            // _dateTimePickerFechaNacimiento
             // 
-            this.dateTimePicker1.Location = new System.Drawing.Point(209, 266);
-            this.dateTimePicker1.Name = "dateTimePicker1";
-            this.dateTimePicker1.Size = new System.Drawing.Size(200, 20);
-            this.dateTimePicker1.TabIndex = 17;
+            this._dateTimePickerFechaNacimiento.Location = new System.Drawing.Point(209, 266);
+            this._dateTimePickerFechaNacimiento.Name = "_dateTimePickerFechaNacimiento";
+            this._dateTimePickerFechaNacimiento.Size = new System.Drawing.Size(200, 20);
+            this._dateTimePickerFechaNacimiento.TabIndex = 17;
             // 
             // FrmIngresarClientes
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(467, 410);
-            this.Controls.Add(this.dateTimePicker1);
+            this.Controls.Add(this._dateTimePickerFechaNacimiento);
             this.Controls.Add(this._lblFechaNacimiento);
             this.Controls.Add(this._txtDNI);
             this.Controls.Add(this._lblDNI);
@@ -261,6 +261,6 @@ namespace TP_CAI_HW.Interfaz
         private System.Windows.Forms.TextBox _txtDNI;
         private System.Windows.Forms.Label _lblDNI;
         private System.Windows.Forms.Label _lblFechaNacimiento;
-        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.DateTimePicker _dateTimePickerFechaNacimiento;
     }
 }

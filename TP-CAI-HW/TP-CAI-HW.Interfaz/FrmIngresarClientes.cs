@@ -20,7 +20,13 @@ namespace TP_CAI_HW.Interfaz
 
         private void _btnLimpiar_Click(object sender, EventArgs e)
         {
-
+            _txtNombre.Text = string.Empty;
+            _txtApellido.Text = string.Empty;
+            _txtDireccion.Text = string.Empty;
+            _txtMail.Text = string.Empty;
+            _txtDNI.Text = string.Empty;
+            _txtTelefono.Text = string.Empty;
+            _dateTimePickerFechaNacimiento.Value = DateTime.Now;
         }
 
         private void _btnIngresar_Click(object sender, EventArgs e)

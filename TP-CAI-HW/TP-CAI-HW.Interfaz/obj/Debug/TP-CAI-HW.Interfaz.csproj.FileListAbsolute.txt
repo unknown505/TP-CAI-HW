@@ -26,3 +26,7 @@ C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Interfaz\bin\D
 C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Interfaz\obj\Debug\TP-CAI-HW.Interfaz.csproj.CopyComplete
 C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Interfaz\obj\Debug\TP_CAI_HW.Interfaz.FrmClientes.resources
 C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Interfaz\obj\Debug\TP_CAI_HW.Interfaz.FrmConsultarVentas.resources
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Interfaz\bin\Debug\TP-CAI-HW.Datos.dll
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Interfaz\bin\Debug\Newtonsoft.Json.dll
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Interfaz\bin\Debug\TP-CAI-HW.Datos.pdb
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-HW.Interfaz\bin\Debug\Newtonsoft.Json.xml
