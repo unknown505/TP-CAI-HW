@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using TP_CAI_HW.Datos;
 using TP_CAI_HW.Entidades;
 
-namespace TP_CAI_WH.Negocio
+namespace TP_CAI_HW.Negocio
 {
     public class ProveedoresNegocio
     {

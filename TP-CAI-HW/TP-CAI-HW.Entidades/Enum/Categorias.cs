@@ -8,19 +8,19 @@ namespace TP_CAI_HW.Entidades.Enum
 {
     public enum Categorias
     {
-        Almacenamiento,
-        Cables,
-        Combos,
-        Coolers,
-        Fuentes,
-        Gabinetes,
-        GPU,
-        Microprocesador,
-        Monitor,
-        Motherboard,
-        Mouse,
-        Rams,
-        Teclado
+        Almacenamiento = 1,
+        Cables = 2,
+        Combos = 3,
+        Coolers = 4,
+        Fuentes = 5,
+        Gabinetes = 6,
+        GPU = 7,
+        Microprocesador = 8,
+        Monitor = 9,
+        Motherboard = 10,
+        Mouse = 11,
+        Rams = 12,
+        Teclado = 13
 
     }
 }

@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP-CAI-HW.Entidades", "TP-C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP-CAI-HW.Datos", "TP-CAI-HW.Datos\TP-CAI-HW.Datos.csproj", "{6890480C-0AA3-487F-9649-8706531B7D6C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP-CAI-WH.Negocio", "TP-CAI-WH.Negocio\TP-CAI-WH.Negocio.csproj", "{E7ADE039-73D6-40B6-A961-529404AB0AF3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TP-CAI-HW.Negocio", "TP-CAI-WH.Negocio\TP-CAI-HW.Negocio.csproj", "{E7ADE039-73D6-40B6-A961-529404AB0AF3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
