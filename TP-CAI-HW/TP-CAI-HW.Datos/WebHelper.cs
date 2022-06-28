@@ -11,7 +11,7 @@ namespace TP_CAI_HW.Datos
 {
     public static class WebHelper
     {
-  
+
         static WebClient client;
         static string rutaBase;
 

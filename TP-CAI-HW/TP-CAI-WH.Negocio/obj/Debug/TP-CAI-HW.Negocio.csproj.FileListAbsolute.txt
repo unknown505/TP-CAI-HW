@@ -1,0 +1,13 @@
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-WH.Negocio\bin\Debug\TP-CAI-WH.Negocio.dll
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-WH.Negocio\bin\Debug\TP-CAI-WH.Negocio.pdb
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-WH.Negocio\bin\Debug\TP-CAI-HW.Datos.dll
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-WH.Negocio\bin\Debug\TP-CAI-HW.Entidades.dll
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-WH.Negocio\bin\Debug\Newtonsoft.Json.dll
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-WH.Negocio\bin\Debug\TP-CAI-HW.Datos.pdb
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-WH.Negocio\bin\Debug\TP-CAI-HW.Entidades.pdb
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-WH.Negocio\bin\Debug\Newtonsoft.Json.xml
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-WH.Negocio\obj\Debug\TP-CAI-HW.Negocio.csprojAssemblyReference.cache
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-WH.Negocio\obj\Debug\TP-CAI-HW.Negocio.csproj.CoreCompileInputs.cache
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-WH.Negocio\obj\Debug\TP-CAI-HW.Negocio.csproj.CopyComplete
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-WH.Negocio\obj\Debug\TP-CAI-WH.Negocio.dll
+C:\Users\LeMarbenz\Documents\GitHub\TP-CAI-HW\TP-CAI-HW\TP-CAI-WH.Negocio\obj\Debug\TP-CAI-WH.Negocio.pdb
