@@ -8,8 +8,10 @@ using System.Configuration;
 
 namespace TP_CAI_HW.Entidades
 {
+    [DataContract]
     public class Proveedores
     {
+        
         private int _idProducto;
         private string _nombre;
         private string _apellido;
@@ -30,6 +32,7 @@ namespace TP_CAI_HW.Entidades
         public DateTime FechaAlta { get => _fechaAlta; set => _fechaAlta = value; }
         public DateTime? FechaBaja { get => _fechaBaja; set => _fechaBaja = value; }
         public int Usuario { get => _usuario; set => _usuario = value; }
+        [DataMember (Name = "id")]
         public int IdProveedor { get => _idProveedor; set => _idProveedor = value; }
 
 

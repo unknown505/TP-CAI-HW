@@ -38,11 +38,7 @@ namespace TP_CAI_HW.Interfaz
         }
         private void _btnLimpiar_Click(object sender, EventArgs e)
         {
-            _txtNombre.Text = string.Empty;
-            _txtPrecio.Text = string.Empty;
-            _txtStock.Text = string.Empty;
-            _cboBoxCategoria.SelectedIndex = -1;
-            _cboBoxProveedor.SelectedIndex = -1;
+            Clean();
         }
 
         private void _btnIngresar_Click(object sender, EventArgs e)
@@ -52,17 +48,14 @@ namespace TP_CAI_HW.Interfaz
                 double precio = Validadores.StringToDouble(_txtPrecio.Text);
                 int stock = Validadores.StringToInt(_txtStock.Text);
                 Validadores.IsNullOrEmpy(_txtNombre.Text);
-                MessageBox.Show("test");
                 string nombre = _txtNombre.Text;
-                MessageBox.Show("test1");
-                //Validadores.ValidarComboBox(_cboBoxCategoria, _lblCategoria);
-                int idCategoria = (int)((Categorias)(_cboBoxCategoria.SelectedItem));
-                MessageBox.Show("test2");
-                //Validadores.ValidarComboBox(_cboBoxProveedor, _lblProveedor);
-                int idProveedor = (int)_cboBoxProveedor.SelectedItem;
-                MessageBox.Show("test3");
+                Validadores.ValidarComboBox(_cboBoxCategoria, _lblCategoria);
+                int idCategoria = (int)_cboBoxCategoria.SelectedItem;
+                Validadores.ValidarComboBox(_cboBoxProveedor, _lblProveedor);
+                int idProveedor = ((Proveedores)_cboBoxProveedor.SelectedItem).IdProveedor;
                 _serviciosProductos.IngresarProducto(nombre, idCategoria, idProveedor, precio, stock);
                 MessageBox.Show(String.Format($"Se ha ingresado el producto \"{nombre}\" correctamente."));
+                Clean();
 
             }
             catch (Exception ex)
@@ -83,6 +76,14 @@ namespace TP_CAI_HW.Interfaz
             this.Dispose();
         }
 
+        private void Clean()
+        {
+            _txtNombre.Text = string.Empty;
+            _txtPrecio.Text = string.Empty;
+            _txtStock.Text = string.Empty;
+            _cboBoxCategoria.SelectedIndex = -1;
+            _cboBoxProveedor.SelectedIndex = -1;
+        }
 
     }
 }

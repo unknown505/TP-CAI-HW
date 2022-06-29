@@ -25,7 +25,7 @@ namespace TP_CAI_HW.Datos
             n.Add("FechaNacimiento", cliente.FechaNac.ToString("yyyy-MM-dd"));
             n.Add("FechaAlta", cliente.FechaAlta.ToString("yyyy-MM-dd"));
             n.Add("Activo", cliente.Activo.ToString());
-            n.Add("Usuario", cliente.Usuario);
+            n.Add("Usuario", cliente.Usuario.ToString());
             n.Add("Host", cliente.Host);
             n.Add("id", cliente.IdCliente.ToString());
 

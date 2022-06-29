@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Runtime.Serialization;
 using System.Configuration;
+using TP_CAI_HW.Entidades.Utilidades;
 
 namespace TP_CAI_HW.Entidades
 {
@@ -17,7 +18,7 @@ namespace TP_CAI_HW.Entidades
         private double _precio;
         private int _stock;
         private int _idProveedor;
-        //private int _usuario;
+        private int _usuario;
 
         public int IdCategoria { get => _idCategoria; set => _idCategoria = value; }
         public string Nombre { get => _nombre; set => _nombre = value; }
@@ -25,7 +26,7 @@ namespace TP_CAI_HW.Entidades
         public int IdProveedor { get => _idProveedor; set => _idProveedor = value; }
         public double Precio { get => _precio; set => _precio = value; }
         public DateTime FechaAlta { get => _fechaAlta; set => _fechaAlta = value; }
-        //public int Usuario { get => _usuario; set => _usuario = value; }
+        public int Usuario { get => _usuario; set => _usuario = value; }
         public int IdProducto { get => _idProducto; set => _idProducto = value; }
 
 
@@ -37,8 +38,8 @@ namespace TP_CAI_HW.Entidades
             _precio = Precio;
             _stock = Stock;
             _idProveedor = IdProveedor;
-            //_usuario = Usuario;
-            _idProducto = IdProducto;
+            _usuario = Users.User1;
+            //_idProducto = _idProducto;
             _fechaAlta = DateTime.Now;
 
         }

@@ -23,7 +23,7 @@ namespace TP_CAI_HW.Datos
             n.Add("IdProveedor", producto.IdProveedor.ToString());
             n.Add("Precio", producto.Precio.ToString());
             n.Add("FechaAlta", producto.FechaAlta.ToString());
-            //n.Add("Usuario", producto.Usuario.ToString());
+            n.Add("Usuario", producto.Usuario.ToString());
             n.Add("IdProducto", producto.IdProducto.ToString());
             return n;
         }
