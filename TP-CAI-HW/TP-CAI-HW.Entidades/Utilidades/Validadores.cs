@@ -22,8 +22,8 @@ namespace TP_CAI_HW.Entidades
             {
                 throw new Exception("Seleccione un valor para el campo " + lbl.Text);
             }
-
         }
+
         public static double StringToDouble(string Valor)
         {
             bool ValidacionOk = false;
@@ -38,7 +38,6 @@ namespace TP_CAI_HW.Entidades
             } while (!ValidacionOk);
 
             return DoubleOk;
-
         }
 
         public static int StringToInt(string Valor)
@@ -55,7 +54,26 @@ namespace TP_CAI_HW.Entidades
             } while (!ValidacionOk);
 
             return IntOk;
+        }
+
+        public static void MayoriaDeEdad(DateTime FechaNacimiento)
+        {
+            bool ValidacionOk = false;
+            do
+            {
+                if ((DateTime.Now - FechaNacimiento).TotalDays / 365.242199 > 18) 
+                {
+                    ValidacionOk = true;
+                }
+                else
+                {
+                    throw new Exception("El cliente no es mayor de edad.");
+                }
+
+            } while (!ValidacionOk);
 
         }
+
+
     }
 }
