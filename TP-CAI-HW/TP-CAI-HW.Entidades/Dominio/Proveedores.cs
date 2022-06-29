@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Runtime.Serialization;
 using System.Configuration;
+using TP_CAI_HW.Entidades.Utilidades;
 
 namespace TP_CAI_HW.Entidades
 {
@@ -22,6 +23,7 @@ namespace TP_CAI_HW.Entidades
         private DateTime? _fechaBaja;
         private int _usuario;
         private int _idProveedor;
+        private string _direccion;
 
         public int IdProducto { get => _idProducto; set => _idProducto = value; }
         public string Nombre { get => _nombre; set => _nombre = value; }
@@ -34,20 +36,34 @@ namespace TP_CAI_HW.Entidades
         public int Usuario { get => _usuario; set => _usuario = value; }
         [DataMember (Name = "id")]
         public int IdProveedor { get => _idProveedor; set => _idProveedor = value; }
+        public string Direccion { get => _direccion; set => _direccion= value; }
 
 
-        public Proveedores(int IdProducto, string Nombre, string Apellido, string Email, string Cuit, bool Activo, DateTime FechaAlta, DateTime? FechaBaja, int Usuario, int IdProveedor)
-        {
-            _idProducto = IdProducto;
+        //public Proveedores(int IdProducto, string Nombre, string Apellido, string Email, string Cuit, DateTime FechaAlta, DateTime? FechaBaja, int Usuario, int IdProveedor)
+        //{
+        //    _idProducto = IdProducto;
+        //    _nombre = Nombre;
+        //    _apellido = Apellido;
+        //    _email = Email;
+        //    _cuit = Cuit;
+        //    _activo = true;
+        //    _fechaAlta = DateTime.Now;
+        //    _fechaBaja = FechaBaja;
+        //    _usuario = Users.User2;
+        //    _idProveedor = IdProveedor;
+        //}
+
+        public Proveedores(string Nombre, string Apellido, string Direccion, string Cuit, int IdProducto, DateTime? FechaBaja)
+        {            
             _nombre = Nombre;
             _apellido = Apellido;
-            _email = Email;
+            _direccion = Direccion;
             _cuit = Cuit;
-            _activo = Activo;
-            _fechaAlta = FechaAlta;
+            _idProducto = IdProducto;
+            _activo = true;
+            _fechaAlta = DateTime.Now;
             _fechaBaja = FechaBaja;
-            _usuario = Usuario;
-            _idProveedor = IdProveedor;
+            _usuario = Users.User2;
         }
     }
 }

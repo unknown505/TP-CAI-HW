@@ -19,6 +19,10 @@ namespace TP_CAI_HW.Negocio
             _productosMapper = new ProductosMapper();
         }
 
+        public List<Productos> TraerProductos()
+        {
+            return _productosMapper.GetProduct();
+        }
         public void IngresarProducto(string nombre, int idCategoria, int idProveedor, double precio, int stock)
         {
             Productos p = new Productos(nombre, idCategoria, precio, stock, idProveedor);

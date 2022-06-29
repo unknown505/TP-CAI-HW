@@ -9,5 +9,6 @@ namespace TP_CAI_HW.Entidades.Utilidades
     class Users
     {
         public static int User1 = 883353;
+        public static int User2 = 889824;
     }
 }

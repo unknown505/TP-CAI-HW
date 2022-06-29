@@ -9,6 +9,7 @@ using TP_CAI_HW.Entidades.Utilidades;
 
 namespace TP_CAI_HW.Entidades
 {
+    [DataContract]
     public class Productos
     {
         private int _idProducto;
@@ -27,6 +28,7 @@ namespace TP_CAI_HW.Entidades
         public double Precio { get => _precio; set => _precio = value; }
         public DateTime FechaAlta { get => _fechaAlta; set => _fechaAlta = value; }
         public int Usuario { get => _usuario; set => _usuario = value; }
+        [DataMember (Name = "id")]
         public int IdProducto { get => _idProducto; set => _idProducto = value; }
 
 

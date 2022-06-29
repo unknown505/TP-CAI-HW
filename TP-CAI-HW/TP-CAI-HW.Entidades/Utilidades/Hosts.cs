@@ -8,6 +8,7 @@ namespace TP_CAI_HW.Entidades.Utilidades
 {
     class Hosts
     {
-        public static int Host = 889824;
+        public static int Host1 = 889824;
+        public static int Host2 = 883353;
     }
 }

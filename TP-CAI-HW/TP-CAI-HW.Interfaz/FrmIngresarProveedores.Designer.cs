@@ -34,7 +34,7 @@ namespace TP_CAI_HW.Interfaz
             this._btnAtras = new System.Windows.Forms.Button();
             this._btnIngresar = new System.Windows.Forms.Button();
             this._txtMail = new System.Windows.Forms.TextBox();
-            this._txtDireccion = new System.Windows.Forms.TextBox();
+            this._txtCuit = new System.Windows.Forms.TextBox();
             this._txtApellido = new System.Windows.Forms.TextBox();
             this._txtNombre = new System.Windows.Forms.TextBox();
             this._lblProveedorAIngresar = new System.Windows.Forms.Label();
@@ -95,12 +95,12 @@ namespace TP_CAI_HW.Interfaz
             this._txtMail.Size = new System.Drawing.Size(200, 20);
             this._txtMail.TabIndex = 28;
             // 
-            // _txtDireccion
+            // _txtCuit
             // 
-            this._txtDireccion.Location = new System.Drawing.Point(209, 158);
-            this._txtDireccion.Name = "_txtDireccion";
-            this._txtDireccion.Size = new System.Drawing.Size(200, 20);
-            this._txtDireccion.TabIndex = 26;
+            this._txtCuit.Location = new System.Drawing.Point(209, 158);
+            this._txtCuit.Name = "_txtCuit";
+            this._txtCuit.Size = new System.Drawing.Size(200, 20);
+            this._txtCuit.TabIndex = 26;
             // 
             // _txtApellido
             // 
@@ -185,7 +185,7 @@ namespace TP_CAI_HW.Interfaz
             this.Controls.Add(this._btnAtras);
             this.Controls.Add(this._btnIngresar);
             this.Controls.Add(this._txtMail);
-            this.Controls.Add(this._txtDireccion);
+            this.Controls.Add(this._txtCuit);
             this.Controls.Add(this._txtApellido);
             this.Controls.Add(this._txtNombre);
             this.Controls.Add(this._lblProveedorAIngresar);
@@ -196,6 +196,7 @@ namespace TP_CAI_HW.Interfaz
             this.Name = "FrmIngresarProveedores";
             this.Text = "Hardware Springfield - Ingresar Proveedor";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmIngresarProveedores_FormClosing);
+            this.Load += new System.EventHandler(this.FrmIngresarProveedores_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -207,7 +208,7 @@ namespace TP_CAI_HW.Interfaz
         private System.Windows.Forms.Button _btnAtras;
         private System.Windows.Forms.Button _btnIngresar;
         private System.Windows.Forms.TextBox _txtMail;
-        private System.Windows.Forms.TextBox _txtDireccion;
+        private System.Windows.Forms.TextBox _txtCuit;
         private System.Windows.Forms.TextBox _txtApellido;
         private System.Windows.Forms.TextBox _txtNombre;
         private System.Windows.Forms.Label _lblProveedorAIngresar;
