@@ -23,7 +23,7 @@ namespace TP_CAI_HW.Negocio
             TransactionResult tr = _clientesMapper.InsertCliente(c);
             if (!tr.IsOk)
             {
-                throw new Exception($"El producto {nombre} falló al ser ingresado. Detalle: " + tr.Error);
+                throw new Exception($"El cliente {nombre} falló al ser ingresado. Detalle: " + tr.Error);
             }
         }
     }
