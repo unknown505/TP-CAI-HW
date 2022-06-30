@@ -23,7 +23,14 @@ namespace TP_CAI_HW.Interfaz
             _serviciosProductos = new ProductosNegocio();
             InitializeComponent();
         }
+        private void FrmIngresarProveedores_Load(object sender, EventArgs e)
+        {
+            _cboBoxProducto.DataSource = null;
+            _cboBoxProducto.DataSource = _serviciosProductos.TraerProductos();
+            _cboBoxProducto.SelectedIndex = -1;
+            _cboBoxProducto.DisplayMember = "Nombre";
 
+        }
         private void _btnLimpiar_Click(object sender, EventArgs e)
         {
             Clean();
@@ -75,13 +82,6 @@ namespace TP_CAI_HW.Interfaz
             _cboBoxProducto.SelectedIndex = -1;
         }
 
-        private void FrmIngresarProveedores_Load(object sender, EventArgs e)
-        {
-            _cboBoxProducto.DataSource = null;
-            _cboBoxProducto.DataSource = _serviciosProductos.TraerProductos();
-            _cboBoxProducto.SelectedIndex = -1;
-            _cboBoxProducto.DisplayMember = "Nombre";
 
-        }
     }
 }

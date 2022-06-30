@@ -7,14 +7,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using TP_CAI_HW.Negocio;
 
 namespace TP_CAI_HW.Interfaz
 {
     public partial class FrmConsultarProveedores : Form
     {
+        private ProveedoresNegocio _serviciosProveedores;
         public FrmConsultarProveedores(FrmProveedores Owner)
         {
             this.Owner = Owner;
+            _serviciosProveedores = new ProveedoresNegocio();
             InitializeComponent();
         }
 
@@ -33,6 +36,12 @@ namespace TP_CAI_HW.Interfaz
             this.Dispose();
         }
 
-
+        private void FrmConsultarProveedores_Load(object sender, EventArgs e)
+        {
+            _cboBoxProveedor.DataSource = null;
+            _cboBoxProveedor.DataSource = _serviciosProveedores.TraerProveedores();
+            _cboBoxProveedor.DisplayMember = "ProveedorCompleto";
+            _cboBoxProveedor.SelectedIndex = -1;
+        }
     }
 }

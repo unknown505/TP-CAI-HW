@@ -17,6 +17,11 @@ namespace TP_CAI_HW.Negocio
         {
             _clientesMapper = new ClientesMapper();
         }
+
+        public List<Cliente> TraerClientes()
+        {
+            return _clientesMapper.GetDatos();
+        }
         public void IngresarCliente(string nombre, string apellido, string direccion, string telefono, string mail, int dni, DateTime fechaNacimiento)
         {
             Cliente c = new Cliente(nombre, apellido, direccion, telefono, mail, dni, fechaNacimiento);

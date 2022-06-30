@@ -168,11 +168,13 @@ namespace TP_CAI_HW.Interfaz
             // 
             // _cboBoxProducto
             // 
+            this._cboBoxProducto.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this._cboBoxProducto.FormattingEnabled = true;
             this._cboBoxProducto.Location = new System.Drawing.Point(209, 234);
             this._cboBoxProducto.Name = "_cboBoxProducto";
             this._cboBoxProducto.Size = new System.Drawing.Size(200, 21);
-            this._cboBoxProducto.TabIndex = 33;
+            this._cboBoxProducto.Sorted = true;
+            this._cboBoxProducto.TabIndex = 5;
             // 
             // FrmIngresarProveedores
             // 

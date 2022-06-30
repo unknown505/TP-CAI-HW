@@ -38,10 +38,12 @@ namespace TP_CAI_HW.Interfaz
             // 
             // _cboBoxCliente
             // 
+            this._cboBoxCliente.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this._cboBoxCliente.FormattingEnabled = true;
             this._cboBoxCliente.Location = new System.Drawing.Point(152, 77);
             this._cboBoxCliente.Name = "_cboBoxCliente";
             this._cboBoxCliente.Size = new System.Drawing.Size(154, 21);
+            this._cboBoxCliente.Sorted = true;
             this._cboBoxCliente.TabIndex = 52;
             // 
             // _btnAtras
@@ -99,6 +101,7 @@ namespace TP_CAI_HW.Interfaz
             this.Name = "FrmConsultarClientes";
             this.Text = "Hardware Springfield - Consultar Cliente";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmConsultarClientes_FormClosing);
+            this.Load += new System.EventHandler(this.FrmConsultarClientes_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
