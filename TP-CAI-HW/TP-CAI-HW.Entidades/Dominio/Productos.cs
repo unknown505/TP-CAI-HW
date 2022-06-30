@@ -45,5 +45,10 @@ namespace TP_CAI_HW.Entidades
             _fechaAlta = DateTime.Now;
 
         }
+
+        public string ProductoCompleto
+        {
+            get { return "ID:" + IdProducto + " - " + Nombre; }
+        }
     }
 }

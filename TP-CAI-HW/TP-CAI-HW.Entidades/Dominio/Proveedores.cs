@@ -39,20 +39,6 @@ namespace TP_CAI_HW.Entidades
         public string Direccion { get => _direccion; set => _direccion= value; }
 
 
-        //public Proveedores(int IdProducto, string Nombre, string Apellido, string Email, string Cuit, DateTime FechaAlta, DateTime? FechaBaja, int Usuario, int IdProveedor)
-        //{
-        //    _idProducto = IdProducto;
-        //    _nombre = Nombre;
-        //    _apellido = Apellido;
-        //    _email = Email;
-        //    _cuit = Cuit;
-        //    _activo = true;
-        //    _fechaAlta = DateTime.Now;
-        //    _fechaBaja = FechaBaja;
-        //    _usuario = Users.User2;
-        //    _idProveedor = IdProveedor;
-        //}
-
         public Proveedores(string Nombre, string Apellido, string Direccion, string Cuit, int IdProducto, DateTime? FechaBaja)
         {            
             _nombre = Nombre;
@@ -64,6 +50,11 @@ namespace TP_CAI_HW.Entidades
             _fechaAlta = DateTime.Now;
             _fechaBaja = FechaBaja;
             _usuario = Users.User2;
+        }
+
+        public string ProveedorCompleto
+        {
+            get { return "ID:" + IdProveedor.ToString() + " - " + Apellido + ", " + Nombre; }
         }
     }
 }
